@@ -2,6 +2,7 @@ from tkinter import *
 import webbrowser
 
 groot = Tk()
+groot.geometry("200x100")
 
 url = "https://gist.github.com/RandomResourceWeb/93e887facdb98937ab5d260d1a0df270"
 
