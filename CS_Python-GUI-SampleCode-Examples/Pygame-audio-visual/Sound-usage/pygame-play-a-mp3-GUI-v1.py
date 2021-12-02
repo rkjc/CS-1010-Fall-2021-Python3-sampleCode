@@ -19,9 +19,6 @@ def play_music():
     # Start playing the song
     mixer.music.play()
 
-def pause_music():
-    # Pausing the music
-    mixer.music.pause()
 
 def stop_music():
     # Stop the mixer
@@ -34,8 +31,6 @@ lbl_2.pack()
 btn_2 = Button(groot, text="play", command=play_music)
 btn_2.pack()
 
-btn_3 = Button(groot, text="pause", command=pause_music)
-btn_3.pack()
 
 btn_5 = Button(groot, text="stop", command=stop_music)
 btn_5.pack()
