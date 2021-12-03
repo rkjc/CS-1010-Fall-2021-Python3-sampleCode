@@ -19,7 +19,7 @@ while(play):
   while(room0 and stillAlive):
     print ("You are standing in front of a door.")
     print ("Do you open the door? y n")
-    ans = raw_input()
+    ans = input()
     if ans == 'y':
       if firstTime:
         print ("A hand reaches out and drags you into the dungeon.")
@@ -42,7 +42,7 @@ while(play):
   choice1 = ['look', 'leave']
   while(room1 and stillAlive):
     print ("What do you do?")
-    ans = raw_input()
+    ans = input()
     #run through a series of if statements to test user responce
     if ans == 'leave':
       #this takes the player back outside
@@ -110,7 +110,7 @@ while(play):
   looked2 = False
   while(room2 and stillAlive):
     print ('What do you do?')
-    ans = raw_input()
+    ans = input()
     if ans == 'look':
       print ('')
       print ('*** description of end of tunnel goes here ***')
@@ -130,4 +130,4 @@ while(play):
 print ('')
 if not stillAlive:   
   print ('Even though you perished you vow to return some day')
-raw_input("good by")
+input("good by")

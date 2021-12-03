@@ -59,7 +59,7 @@ print(random.random())
 
 
 groot = Tk()
-sizeStr = str(windowWidth) + "x" + str(windowHeight) + "+6000+100"
+sizeStr = str(windowWidth) + "x" + str(windowHeight)
 groot.geometry(sizeStr)
 
 drawboard = Canvas(groot, width=windowWidth, height=windowHeight)

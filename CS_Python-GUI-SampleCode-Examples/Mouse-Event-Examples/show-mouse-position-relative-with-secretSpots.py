@@ -2,7 +2,7 @@ import tkinter as tk
 root = tk.Tk()
 root.geometry("400x400")
 
-def motion(event):
+def fred(event):
     x = event.x
     y = event.y
     lbl_x.config(text=x)
@@ -21,7 +21,7 @@ lblfrm_1.pack()
 lbl_x.pack(side=tk.LEFT, padx = 5)
 lbl_y.pack(side=tk.LEFT, padx = 5)
 
-root.bind('<Motion>', motion)
+root.bind('<Motion>', fred)
 root.mainloop()
 
 # https://stackoverflow.com/questions/22925599/mouse-position-python-tkinter
